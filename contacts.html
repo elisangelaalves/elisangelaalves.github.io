@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--[if IE 9]>
+<html class="ie9" lang="en">    <![endif]-->
+<!--[if IE 8]>
+<html class="ie8" lang="en">    <![endif]-->
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="sections/meta.js"></script>
+</head>
+
+<body class="boxed">
+
+<!--Pre-Loader-->
+<div id="preloader"></div>
+
+<script src="sections/header.js"></script>
+
+<!-- Container -->
+<div class="content-wrap">
+
+   <div id="feedback" class="inner-content">
+       
+       <section id="page-title" class="inner-section ui-menu-color05">
+           <div class="container-fluid nopadding">
+               <h2 class="font-accident-two-normal color01 uppercase"
+                   data-animation-origin="left"
+                   data-animation-duration="400"
+                   data-animation-delay="100"
+                   data-animation-distance="50px">Contatos</h2>
+               <h5 class="font-accident-two-bold color01 uppercase subtitle"
+                   data-animation-origin="left"
+                   data-animation-duration="400"
+                   data-animation-delay="200"
+                   data-animation-distance="50px">Escrit&oacute;rio, endere&ccedil;o, telefones e formul&aacute;rio para encaminhamento de mensagens eletr&ocirc;nicas</h5>
+               <p class="small color01 justified"
+               data-animation-origin="left"
+               data-animation-duration="400"
+               data-animation-delay="300"
+               data-animation-distance="50px">
+               O escrit&oacute;rio funciona de segundas &agrave;s sextas, das 8am &agrave;s 5pm, hor&aacute;rio do Brasil (GMT-3). Visitas e encontros devem ser agendados previamente no escrit&oacute;rio.
+               </p>
+           </div>
+       </section>
+       
+       <section class="inner-section feedback feedback-light" data-section="feedback">
+           <div class="container-fluid nopadding">
+                <div class="row">
+                    <div class="col-md-5" data-animation-origin="right" data-animation-duration="500" data-animation-delay="500" data-animation-distance="25px">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3 class="font-accident-two-bold uppercase">Escrit&oacute;rio</h3>
+                                <p class="small"><a href="http://www.pucminas.br">Pontif&iacute;cia Universidade Cat&oacute;lica de Minas Gerais (PUC Minas)</a><br><a href="http://www.icei.pucminas.br">Instituto de Ci&ecirc;ncias Exatas e Inform&aacute;tica (ICEI)</a><br>Departamento de Ci&ecirc;ncia da Computa&ccedil;&atilde;o (DCC)<br><a href="http://portal.pucminas.br/pos/informatica">Programa de P&oacute;s-Gradua&ccedil;&atilde;o em Inform&aacute;tica (PPGINF)</a></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="font-accident-two-bold uppercase">Endere&ccedil;o</h4>
+                                <p class="small">Rua Walter Ianni, 255 - S&atilde;o Gabriel<br>Pr&eacute;dio L, sala 305<br>31980-110, Belo Horizonte, MG, Brasil<br><a href="https://www.google.com.br/maps/place/Pontif%C3%ADcia+Universidade+Cat%C3%B3lica+de+Minas+Gerais,+S%C3%A3o+Gabriel/@-19.8584932,-43.9204115,17z/data=!4m12!1m6!3m5!1s0x0:0xb614a8efe4594ad4!2sPontif%C3%ADcia+Universidade+Cat%C3%B3lica+de+Minas+Gerais,+S%C3%A3o+Gabriel!8m2!3d-19.8584571!4d-43.9179908!3m4!1s0x0:0xb614a8efe4594ad4!8m2!3d-19.8584571!4d-43.9179908">Mapa do Campus</a></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h5 class="font-accident-two-bold uppercase">Telefones</h5>
+                                <p class="small">+55 31 3439-5204 (secretaria)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7" data-animation-origin="right" data-animation-duration="500" data-animation-delay="800" data-animation-distance="25px">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3 class="font-accident-two-bold uppercase">Mande uma Mensagem</h3>
+                                <p class="small fontcolor-medium text-justify">Utilize o formul&aacute;rio abaixo para me mandar uma mensagem. Pof favor, n&atilde;o mande mensagens para agendamento de visitas e encontros. Fa&ccedil;a isso exclusivamente por telefone.</p>
+                            </div>
+                            <div class="col-md-12 e-centered">
+                                <div class="dividewhite1"></div>
+                                <div id="form-messages"></div>
+                                <form id="ajax-contact" method="post" class="wpcf7-form" action="https://kkdwjndx65.execute-api.us-east-1.amazonaws.com/001/contact-me">
+                                    <div class="field">
+                                        <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                                    </div>
+                                    <div class="field">
+                                        <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                                    </div>
+                                    <div class="field">
+                                        <textarea id="message" name="message" placeholder="Digite sua mensagem" rows="7" cols="30"  required></textarea>
+                                    </div>
+                                    <input type="hidden" id="language" name="language" value="pt-br">
+                                    <div class="dividewhite2"></div>
+                                    <div class="field text-center">
+                                        <!-- <button type="submit" class="btn btn-lg btn-darker">Enviar Mensagem</button> -->
+                                        <button class="btn btn-lg btn-darker">Enviar Mensagem</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-2">&nbsp;</div>
+                            <div class="col-md-12 divider-dynamic"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+   </div>
+
+</div>
+
+<script src="sections/footer.js"></script>
+
+<!-- Back to Top -->
+<div id="back-top"></div>
+<!-- /Back to Top -->
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+
+<script src="assets/vendor/mfp/js/jquery.magnific-popup.min.js?v=1.1.0" type="text/javascript"></script>
+<script src="assets/vendor/progressbar/progressbar.min.js?v=1.0.1" type="text/javascript"></script>
+<script src="assets/vendor/anicounter/jquery.counterup.min.js?v=1.0" type="text/javascript"></script>
+<script src="assets/vendor/pjax/jquery.pjax.min.js?v=1.9.6" type="text/javascript"></script>
+<script src="assets/vendor/owl-carousel/owl.carousel.min.js?v=2.1.0" type="text/javascript"></script>
+<script src="assets/vendor/headlines/headlines.min.js?v=1.0" type="text/javascript"></script>
+
+<!-- Custom scripts -->
+<script src="assets/custom/js/animation.js" type="text/javascript"></script>
+<script src="assets/custom/js/custom.js" type="text/javascript"></script>
+
+</body>
+</html>

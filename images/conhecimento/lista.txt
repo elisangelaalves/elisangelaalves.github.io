@@ -1,0 +1,51 @@
+Angular.png
+Arvore_decisao.gif
+aurora.png
+AWS.png
+Azure.png
+c#.png
+delage.png
+Django.png
+Docker.png
+DynamoDB.png
+ELM.png
+ELT.png
+ETL.png
+Flask.png
+GitLab.png
+Git.png
+GoogleCloud.png
+Integration Services.png
+ITIL.png
+Javascript.png
+JQuery.png
+Jupyter.png
+Knn.png
+Laravel.png
+lista.txt
+Machine_Learning.png
+Mainframes.png
+MariaDb.png
+MongoDB.png
+Mps-br.png
+mssqlserver.png
+MV Sistemas.png
+MySql.png
+Neo4j.png
+Oracle.png
+php.png
+Postgree.png
+PowerBI.jpeg
+python.png
+Redis.png
+Rest Full.png
+Rest.jpeg
+r.png
+scrum.png
+Sênior Sistemas.jpeg
+SOAP.png
+SVM.png
+Tableau.png
+Totvs.png
+XP - Extreme Programming.jpeg
+Zend.png

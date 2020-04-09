@@ -1,0 +1,232 @@
+/* Main Photo */
+.photo-02 {
+  background: url("../../../images/persons/screenshot.png");
+  /*background: url("../../../images/persons/wladmir-495x495.jpg");*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px; }
+
+/* Helena Timeline */
+.timeline-helena-01,
+.timeline-helena-02,
+.timeline-helena-03,
+.timeline-helena-04 {
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+.timeline-helena-01 {
+  background: url("../../../images/places/pucminas-700x500.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-helena-02 {
+  background: url("../../../images/places/feamig-500x320.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-helena-03 {
+  background: url("../../../images/places/ufmg-dcc-700x500.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-helena-04 {
+  background: url("../../../images/places/unibh-700x500.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-helena-05 {
+    background: url("../../../images/places/una-700x500.jpg");
+    background-position: center;
+    background-size: cover; }
+
+/*# sourceMappingURL=helena.css.map */
+
+#background p {
+    margin: 0 0 5px 0; }
+#background i::before {
+    font-size: 32px;
+    line-height: 40px;
+    margin-left: 14px; }
+#background .quote {
+    margin: 14px 0; }
+#background .quote h4 {
+    padding-top: 4px;
+    margin: 0;
+    line-height: 1.3em; }
+
+#background.inner i::before {
+    margin-left: 0; }
+
+#background.light h3 {
+    color: #3f3f3f; }
+#background.light .infoblock h5 {
+    color: #3f3f3f; }
+#background.light .infoblock p {
+    color: #3f3f3f; }
+#background.light .infoblock i {
+    color: #e74c3c; }
+
+#background.dark h3, #details.dark h2 {
+    color: #ffffff; }
+#background.dark .infoblock h5 {
+    color: #ffffff; }
+#background.dark .infoblock h4 {
+    color: #ffffff; }
+#background.dark .infoblock p {
+    color: #ffffff; }
+#background.dark .infoblock i {
+    color: #ffffff; }
+
+#experience .experience {
+    overflow: visible;
+    position: relative;
+    padding-left: 24px;
+    margin-left: 7px; }
+#experience .experience ul {
+    margin-bottom: 23px; }
+#experience li.date {
+    font-size: 11px;
+    margin-bottom: 0;
+    position: relative;
+    display: block;
+    font-weight: 400;
+    line-height: 1.2em;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out; }
+#experience li.company {
+    display: block; }
+#experience li.company a {
+    font-family: "Exo 2", sans-serif;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out; }
+#experience li.company a:before {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 4px;
+    top: 7px;
+    left: -29px;
+    content: ""; }
+#experience li.position {
+    margin: 0 0 0 0;
+    display: block;
+    line-height: 12px; }
+#experience a, #experience a:hover, #experience a:focus {
+    text-decoration: none; }
+#experience a i::before {
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: 0 !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out; }
+#experience a:hover i::before {
+    opacity: .5; }
+
+#experience.dark h3 {
+    color: #ffffff; }
+#experience.dark .experience {
+    border-left: 1px solid rgba(255, 255, 255, 0.4); }
+#experience.dark li.date {
+    color: #ffffff; }
+#experience.dark li.company a {
+    color: #ffffff; }
+#experience.dark li.company a:before {
+    background: #ffffff; }
+#experience.dark li.company a:hover {
+    opacity: .6; }
+#experience.dark li.position {
+    color: #ffffff; }
+#experience.dark a, #experience.dark a:hover, #experience.dark a:focus {
+    color: #ffffff; }
+#experience.dark a i::before {
+    color: #ffffff; }
+
+#research-projects p {
+    margin: 0 0 5px 0; }
+#research-projects i::before {
+    font-size: 32px;
+    line-height: 40px;
+    margin-left: 14px; }
+#research-projects .quote {
+    margin: 14px 0; }
+#research-projects .quote h4 {
+    padding-top: 4px;
+    margin: 0;
+    line-height: 1.3em; }
+
+#research-projects.inner i::before {
+    margin-left: 0; }
+
+#research-projects.dark h3 {
+    color: #ffffff; }
+#research-projects.dark .infoblock i::before {
+    color: #ffffff; }
+#research-projects.dark a, #research-projects.dark a:hover, #research-projects.dark a:focus {
+    color: #ffffff; }
+#research-projects.dark a:hover {
+    opacity: .6 }
+#research-projects.dark a i::before {
+    color: #ffffff; }
+#research-projects.dark .infoblock p {
+    color: #ffffff; }
+
+#resume #page-title a {
+    color: #ffffff; }
+#resume #page-title a:before {
+    background: #ffffff; }
+#resume #page-title a:hover {
+    opacity: .6; }
+
+#publications.light h3, #details.light h2 {
+    color: #3f3f3f; }
+#publications.light .infoblock h5 {
+    color: #3f3f3f; }
+#publications.light .infoblock h4 {
+    color: #3f3f3f; }
+#publications.light .infoblock p {
+    color: #3f3f3f; }
+#publications.light .infoblock a, #publications.light .infoblock a:hover, #publications.light .infoblock a:focus {
+    color: #ffffff; }
+#publications.light .infoblock span {
+    margin-left: 2px;
+    margin-right: 2px;}
+#publications.light a, #publications.light a:hover, #publications.light a:focus {
+    color: #3f3f3f; }
+#publications.light a:hover {
+    opacity: .6; }
+#publications.light .infoblock span i::before {
+    color: #ffffff; }
+#publications.light .infoblock .links {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#publications.light .infoblock .reference {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#syllabus-item-page ul {
+    list-style-type: square;
+    margin-left: 20px;
+    padding-left:20px;
+}
