@@ -30,18 +30,17 @@ document.write('\
                         <a href="https://docs.google.com/document/d/1qdJwj7EdHS7guKFfsr9oWNhYeWghmAv3bAJrFjLPylc/edit?usp=sharing" target="_blank" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download CV"></i></a>\
                     </div>\
                </div>\
-                 <!--incluir aqui o menu-->                 </div>\
+                    <ul id = "nav" class= "row nopadding cd-side-navigation" >\
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color01" data-animation-duration="1000" data-animation-delay="100"><a href="index.html" class="hvr-sweep-to-bottom"><i class="flaticon-arrows-1"></i><span>&Iacute;nicio</span></a></li>\
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color02" data-animation-duration="1000" data-animation-delay="300"><a href="resume.html" class="hvr-sweep-to-bottom"><i class="flaticon-profile5"></i><span>Curr&iacute;culo</span></a></li>\
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color03" data-animation-duration="1000" data-animation-delay="500"><a href="research.html" class="hvr-sweep-to-bottom"><i class="flaticon-stats54"></i><span>Research</span></a></li>\
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color04" data-animation-duration="1000" data-animation-delay="700"><a href="teaching.html" class="hvr-sweep-to-bottom"><i class="flaticon-graduation61"></i><span>teaching</span></a></li>\
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color05" data-animation-duration="1000" data-animation-delay="900"><a href="contacts.html" class="hvr-sweep-to-bottom"><i class="flaticon-placeholders4"></i><span>contats</span></a></li>\
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color06" data-animation-duration="1000" data-animation-delay="1100"><a href="news.html" class="hvr-sweep-to-bottom"><i class="flaticon-paper40"></i><span>news</span></a></li>\
+                            </ >\
+            </div>\
         </div>\
     </section>\
 </header>\
 \
 ');
-
-// <ul id="nav" class="row nopadding cd-side-navigation">\
-//                     <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color01" data-animation-duration="1000" data-animation-delay="100"><a href="index.html" class="hvr-sweep-to-bottom"><i class="flaticon-arrows-1"></i><span>&Iacute;nicio</span></a></li>\
-//                     <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color02" data-animation-duration="1000" data-animation-delay="300"><a href="resume.html" class="hvr-sweep-to-bottom"><i class="flaticon-profile5"></i><span>Curr&iacute;culo</span></a></li>\
-//                     <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color03" data-animation-duration="1000" data-animation-delay="500"><a href="research.html" class="hvr-sweep-to-bottom"><i class="flaticon-stats54"></i><span>Research</span></a></li>\
-//                     <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color04" data-animation-duration="1000" data-animation-delay="700"><a href="teaching.html" class="hvr-sweep-to-bottom"><i class="flaticon-graduation61"></i><span>teaching</span></a></li>\
-//                     <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color05" data-animation-duration="1000" data-animation-delay="900"><a href="contacts.html" class="hvr-sweep-to-bottom"><i class="flaticon-placeholders4"></i><span>contats</span></a></li>\
-//                     <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color06" data-animation-duration="1000" data-animation-delay="1100"><a href="news.html" class="hvr-sweep-to-bottom"><i class="flaticon-paper40"></i><span>news</span></a></li>\
-//                </ul>\
