@@ -27,7 +27,7 @@ document.write('\
                         </section>\
                     </div>\
                     <div class="col-md-2 nopadding pdf">\
-                        <a href="https://1drv.ms/w/s!AqNdENJ2uCm9g2Vq9z5M43BgiIzO?e=k3QBjr" target="_blank" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download CV"></i></a>\
+                        <a href="https://docs.google.com/document/d/1qdJwj7EdHS7guKFfsr9oWNhYeWghmAv3bAJrFjLPylc/edit?usp=sharing" target="_blank" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download CV"></i></a>\
                     </div>\
                </div>\
                  <!--incluir aqui o menu-->                 </div>\
