@@ -10,7 +10,7 @@ document.write('\
             <div class="col-sm-3 cv-link text-center">\
                <h5 class="font-accident-two-normal uppercase"></h5>\
                <div class="dividewhite1"></div>\
-               <a href="https://1drv.ms/w/s!AqNdENJ2uCm9glNYBI0xjFnp8-ID?e=8JpRcC" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Download CV</a>\
+               <a href="https://1drv.ms/w/s!AqNdENJ2uCm9g2Vq9z5M43BgiIzO?e=k3QBjr" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Download CV</a>\
             </div>\
             <div class="col-sm-6">\
                <h5 class="font-accident-two-normal uppercase"></h5>\
