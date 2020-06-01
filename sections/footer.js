@@ -17,9 +17,7 @@ document.write('\
                <div class="follow text-right">\
                     <ul class="list-inline social">\
                         <li><a target="_blank" href="https://www.linkedin.com/in/elis%C3%A2ngela-prado-alves-b1ba1951/" alt="LinkedIn" class="rst-icon-youtube"><i class="fa fa-linkedin-square"></i></a></li>\
-                        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100009982385100" alt="Facebook" class="rst-icon-youtube"><i class="fa fa-facebook-square"></i></a></li>\
-                        <li><a target="_blank" href="https://www.instagram.com/elisangelagilberto/" alt="Instagram" class="rst-icon-youtube"><i class="fa fa-instagram"></i></a></li>\
-                    </ul>\
+                        </ul>\
                </div>\
                <div class="divider-dynamic"></div>\
             </div>\
@@ -28,3 +26,6 @@ document.write('\
 </footer>\
 \
 ');
+
+// <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100009982385100" alt="Facebook" class="rst-icon-youtube"><i class="fa fa-facebook-square"></i></a></li>\
+// <li><a target="_blank" href="https://www.instagram.com/elisangelagilberto/" alt="Instagram" class="rst-icon-youtube"><i class="fa fa-instagram"></i></a></li>\
