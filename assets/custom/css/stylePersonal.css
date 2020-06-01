@@ -8,7 +8,7 @@
   min-height: 360px; }
 
 /* Helena Timeline */
-.timeline-helena-01,
+/* .timeline-helena-01,
 .timeline-helena-02,
 .timeline-helena-03,
 .timeline-helena-04 {
@@ -39,7 +39,118 @@
 .timeline-helena-05 {
     background: url("../../../images/places/una-700x500.jpg");
     background-position: center;
+    background-size: cover; } */
+
+/* ######################################################################### */
+.timeline-elisangela-01,
+.timeline-elisangela-02,
+.timeline-elisangela-03,
+.timeline-elisangela-04,
+.timeline-elisangela-05,
+.timeline-elisangela-06,
+.timeline-elisangela-07,
+.timeline-elisangela-08,
+.timeline-elisangela-09,
+.timeline-elisangela-10,
+.timeline-elisangela-11,
+.timeline-elisangela-12,
+.timeline-elisangela-13,
+.timeline-elisangela-14,
+.timeline-elisangela-15,
+.timeline-elisangela-16,
+.timeline-elisangela-17,
+.timeline-elisangela-18,
+.timeline-elisangela-19{
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+.timeline-elisangela-01 {
+    background: url("../../../images/places/1.jpg");
+    background-position: center;
     background-size: cover; }
+.timeline-elisangela-02 {
+    background: url("../../../images/places/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover }
+.timeline-elisangela-03 {
+    background: url("../../../images/places/3.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-04 {
+    background: url("../../../images/places/4.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-05 {
+    background: url("../../../images/places/5.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-06 {
+    background: url("../../../images/places/6.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-07 {
+    background: url("../../../images/places/7.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-08 {
+    background: url("../../../images/places/8.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-09 {
+    background: url("../../../images/places/9.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-10 {
+    background: url("../../../images/places/10.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-11 {
+    background: url("../../../images/places/11.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-12 {
+    background: url("../../../images/places/12.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-13 {
+    background: url("../../../images/places/13.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-14 {
+    background: url("../../../images/places/14.jpg");
+    background-position: center;
+    background-size: cover; }
+.timeline-elisangela-15 {
+    background: url("../../../images/places/15.jpg");
+    background-position: center;
+    background-size: cover; }
+    
+.timeline-elisangela-16 {
+    background: url("../../../images/places/16.jpg");
+    background-position: center;
+    background-size: cover; }
+    
+.timeline-elisangela-17 {
+    background: url("../../../images/places/17.jpg");
+    background-position: center;
+    background-size: cover; }
+    
+.timeline-elisangela-18 {
+    background: url("../../../images/places/18.jpg");
+    background-position: center;
+    background-size: cover; }
+    
+.timeline-elisangela-19 {
+    background: url("../../../images/places/19.jpg");
+    background-position: center;
+    background-size: cover; }
+    
+
+
+
+/* ######################################################################### */
+
 
 /*# sourceMappingURL=helena.css.map */
 

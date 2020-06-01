@@ -21,16 +21,20 @@ document.write('\
                                 <b>Analista de Sa&uacute;de Ocupacional</b>\
                                 <b>Gest&atilde;o de Contrato</b>\
                                 <b>Auditor Lider</b>\
-                                <b>Professora</b>\
+                                <b>Professora curso t&eacute;cnico</b>\
                             </span>\
                         </h2>\
                         </section>\
                     </div>\
                     <div class="col-md-2 nopadding pdf">\
-                        <a href="https://docs.google.com/document/d/1qdJwj7EdHS7guKFfsr9oWNhYeWghmAv3bAJrFjLPylc/edit?usp=sharing" target="_blank" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download CV"></i></a>\
+                        <a href="curriculo/Elisangela_P._Alves.pdf" target="_blank"  class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download CV"></i></a>\
                     </div>\
                </div>\
-                 <!--incluir aqui o menu-->                 </div>\
+                 <ul id="nav" class="row nopadding cd-side-navigation">\
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color01" data-animation-duration="1000" data-animation-delay="100"><a href="index.html" class="hvr-sweep-to-bottom"><i class="flaticon-arrows-1"></i><span>&Iacute;nicio</span></a></li>\
+                    <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color02" data-animation-duration="1000" data-animation-delay="300"><a href="resume.html" class="hvr-sweep-to-bottom"><i class="flaticon-profile5"></i><span>Curr&iacute;culo</span></a></li>\
+                   </ul>\
+                            </div>\
         </div>\
     </section>\
 </header>\
